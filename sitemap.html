@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Map</title>
+    <link rel="stylesheet" href="sitemap_styles.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <!-- Video Background -->
+    <video autoplay muted loop playsinline id="video-background">
+        <source src="istockphoto-1457293896-640_adpp_is.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Semi-transparent Overlay (Optional) -->
+    <div class="overlay"></div>
+
+    <header>
+        <div class="logo">
+            <img src="image%20(1).png" alt="Zero Hunger Logo">
+            <span>Zero Hunger</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="volunteer.html">Volunteer</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Feedback</a></li>
+                <li><a href="#" class="active">SiteMap</a></li>
+                <li><a href="#" class="join">Join</a></li>
+                <li class="menu"><i class="fas fa-bars"></i></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <svg width="1500" height="1000">
+            <!-- Rectangles for Sections -->
+            <g class="svgrect">
+                <a href="../Profile/profile_v.html"><rect x="950" y="150" rx="10" ry="10" width="160" height="60" /></a>
+                <a href="../present.html"><rect x="688" y="150" rx="10" ry="10" width="160" height="60" /></a>
+                <a href="../home.html"><rect x="10" y="310" rx="10" ry="10" width="170" height="60" /></a>
+                <a href="../BuyProduct/BuyProduct.html"><rect x="250" y="310" rx="10" ry="10" width="175" height="60" /></a>
+                <a href="../query/contact.html"><rect x="490" y="310" rx="10" ry="10" width="170" height="60" /></a>
+                <a href="../q&a.html"><rect x="700" y="310" rx="10" ry="10" width="170" height="60" /></a>
+                <a href="../images/Gallry.html"><rect x="900" y="310" rx="10" ry="10" width="170" height="60" /></a>
+                <a href="../about.html"><rect x="1120" y="310" rx="10" ry="10" width="150" height="60" /></a>
+                <a href="#"><rect x="1340" y="310" rx="10" ry="10" width="150" height="60" /></a>
+            </g>
+
+            <!-- Lines Connecting Sections -->
+            <g class="svg_lines">
+                <line x1="770" y1="260" x2="770" y2="210" />
+                <line x1="850" y1="180" x2="950" y2="180" />
+                <line x1="80" y1="260" x2="1400" y2="260" />
+                <line x1="79" y1="260" x2="79" y2="310" />
+                <line x1="330" y1="260" x2="330" y2="310" />
+                <line x1="555" y1="260" x2="555" y2="310" />
+                <line x1="770" y1="260" x2="770" y2="310" />
+                <line x1="980" y1="260" x2="980" y2="310" />
+                <line x1="1190" y1="260" x2="1190" y2="310" />
+                <line x1="1400" y1="260" x2="1400" y2="310" />
+            </g>
+
+            <!-- Text for Sections -->
+            <g class="svg_sections">
+                <text x="700" y="60">SITE MAP</text>
+                <text x="695" y="190">Presentation</text>
+                <text x="50" y="350">Home</text>
+                <text x="300" y="350">Shop</text>
+                <text x="500" y="350">Query Form</text>
+                <text x="750" y="350">Quiz</text>
+                <text x="930" y="350">Gallery</text>
+                <text x="1140" y="350">About Us</text>
+                <text x="1358" y="350">Site Map</text>
+            </g>
+
+            <!-- Text for Page Editors -->
+            <g class="svg_editors">
+                <text x="980" y="175">Page Editor</text>
+                <a href="../Profile/profile_v.html"><text x="1005" y="195">Vihangi</text></a>
+                <text x="42" y="460">Page Editor</text>
+                <text x="70" y="480">All</text>
+                <text x="280" y="460">Page Editor</text>
+                <text x="298" y="480">Vihangi</text>
+                <text x="510" y="460">Page Editor</text>
+                <text x="510" y="480">Livini</text>
+                <text x="725" y="460">Page Editor</text>
+                <text x="743" y="480">Vinuja</text>
+                <text x="940" y="460">Page Editor</text>
+                <text x="948" y="480">Tharushi</text>
+                <text x="1148" y="460">Page Editor</text>
+                <text x="1170" y="480">Vinuja</text>
+                <text x="1370" y="460">Page Editor</text>
+                <text x="1380" y="480">Tharushi</text>
+            </g>
+        </svg>
+    </div>
+
+    <button class="button-33" onclick="viewProfile_tharushi();" style="margin-top:-50px;">View Editor</button>
+    <script>
+        function viewProfile_tharushi() {
+            window.location = "../Profile/profile.html";
+        }
+    </script>
+</body>
+</html>
